@@ -16,13 +16,9 @@ export default defineConfig({
             sidebar: [
                 {
                     label: 'Guides',
-                    items: [
-                        // Each item here is one entry in the navigation menu.
-                        {
-                            label: 'Getting Started',
-                            link: '/guides/getting-started/',
-                        },
-                    ],
+                    autogenerate: {
+                        directory: 'guides',
+                    }
                 },
                 {
                     label: 'Reference',
