@@ -5,7 +5,8 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-    site: "https://theapproach.github.io",
+    site: "https://newtoallofthis123.github.io",
+    base: "/approach_docs",
     integrations: [
         starlight({
             title: 'Approach',
