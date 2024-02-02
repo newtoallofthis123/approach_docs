@@ -18,5 +18,17 @@ Written using [starlight](starlight.astro.build).
 
 ## To Deploy
 
-1. Build the site: `npm run build`
-2. Deploy the `dist` folder to your host of choice.
+### Locally
+
+If you want to deploy on your own server, just run `bash dist.sh`
+
+### Github Pages
+
+However, if you want to deploy it on GitHub Pages, paste the following code
+
+> https://paste.rs/NQMa5.yml
+
+into `.github/workflows/deploy.yml`
+
+Then commit the code, also don't forget to edit the astro.config.mjs's `base` url attribute so that Astro correctly 
+recognizes the github page
